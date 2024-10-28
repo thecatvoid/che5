@@ -45,13 +45,31 @@
 
 <table>
 <tr>
-<td>Process ID (PID)</td>          
-<td>Process State            </td>
-<td>Program Counter          </td>
-<td>CPU Registers            </td>
-<td>Memory Management Info   </td>
-<td>I/O Status Info          </td>
-<td>Accounting Information   </td>
+<td>Process ID (PID)</td>
+</tr>          
+
+<tr>
+<td>Process State</td>
+</tr>
+
+<tr>
+<td>Program Counter</td>
+</tr>
+
+<tr>
+<td>CPU Registers</td>
+</tr>
+
+<tr>
+<td>Memory Management Info</td>
+</tr>
+
+<tr>
+<td>I/O Status Info</td>
+</tr>
+
+<tr>
+<td>Accounting Information</td>
 </tr>
 </table>
 
