@@ -1,13 +1,28 @@
 # OS Topics
 
 ## Module 1
-1. OS functions
-2. Software
-3. Application Software
-4. Assembler
-5. Compiler
-6. Interpreter
-7. Types of OS
+1. OS functions:
+    - Process Management
+    - Memory Management
+    - File System Management
+    - Device Management
+    - Security and Access Control
+    - User Interface
+    - Networking
+    - Resource Allocation and Management
+2. Software:
+    - Collection of Programs, Instructions and Data
+    - To perform specific Tasks
+3. Application Software vs System Software
+|Aspect          | Application Software                         |  System Software |
+------------------------------------------------------------------------------
+| **Purpose**    | Directly Perform Specific Tasks for the user | Operate and Manage resources for the System |
+| **Dependency** | Dependent on System Software                 | Independent of Application Software |
+| **Examples**   | Word, Excel, Chrome, Photoshop               | Windows, MacOS, Linux, Drivers |
+5. Assembler
+6. Compiler
+7. Interpreter
+8. Types of OS
 
 ## Module 2
 1. Process
