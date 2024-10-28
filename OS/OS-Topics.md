@@ -43,19 +43,17 @@
     - Resource Allocation
 3. Process Control Block Structure (Diagram):
 
-| Process ID (PID)         | 
- --------------------------
-| Process State            |
- --------------------------
-| Program Counter          |
- --------------------------
-| CPU Registers            |
- --------------------------
-| Memory Management Info   |
- --------------------------
-| I/O Status Info          |
- --------------------------
-| Accounting Information   |
+<table>
+<tr>
+<td>Process ID (PID)</td>          
+<td>Process State            </td>
+<td>Program Counter          </td>
+<td>CPU Registers            </td>
+<td>Memory Management Info   </td>
+<td>I/O Status Info          </td>
+<td>Accounting Information   </td>
+</tr>
+</table>
 
 4. States of Process (Diagram)
 5. CPU Schedulers
