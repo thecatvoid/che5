@@ -73,7 +73,62 @@
 </tr>
 </table>
 
-4. States of Process (Diagram)
+4. States of Process (Diagram):
+
+```
++------------+      +-----------+
+|            |      |           |
+|    New     +----->+   Ready   |
+|            |      |           |
++------+-----+      +-----+-----+
+       |                  |
+       |                  | (Scheduler allocates CPU)
+       |                  |
+       |                  v
+       |            +-----+-----+
+       |            |           |
+       |            |  Running  |
+       |            |           |
+       |            +-----+-----+
+       |                  |
+       |                  | (I/O request, wait for resource)
+       |                  |
+       |                  v
+       |            +-----+-----+
+       |            |           |
+       +----------->+  Waiting  |
+                    |           |
+                    +-----+-----+
+                          |
+                          | (I/O completed)
+                          |
+                          v
+                    +-----+-----+
+                    |           |
+                    |   Ready   |
+                    |           |
+                    +-----+-----+
+                          |
+                          | (Scheduler allocates CPU)
+                          |
+                          v
+                    +-----+-----+
+                    |           |
+                    |  Running  |
+                    |           |
+                    +-----+-----+
+                          |
+                          | (Process terminates)
+                          |
+                          v
+                    +-----+-----+
+                    |           |
+                    | Terminated|
+                    |           |
+                    +-----------+
+
+```
+
 5. CPU Schedulers
 6. Scheduling Algorithms (Diagram)
 7. Resource Allocation (Graph)
