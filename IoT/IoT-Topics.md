@@ -148,7 +148,7 @@
     <img src="./dht11-diagram.jpg" alt="DHT11 diagram" width="400" height="500">
 
     - Gas + Pollution Sensor (Pollution): MQ-02
-    <img src="./mq-02-diagram.jpg" alt="MQ-02 diagram" width="400" height="800">
+    <img src="./mq-02-diagram.jpg" alt="MQ-02 diagram" width="800" height="500">
 
 29. **Python Basics and Interacting with Raspberry Pi**
     - Control GPIO Pins with Python
