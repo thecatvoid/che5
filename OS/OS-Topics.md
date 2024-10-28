@@ -143,13 +143,13 @@
     <img src="./FCFS.png" alt="FCFS Chart" width="600" height="300">
 
     ### Algorithm:
-    1. Input the processes along with their burst time
-    2. Find waiting time for all processes
-    3. As first process that comes need not to wait so waiting time for process 1 will be 0
-    4. Find waiting time for all other processes, Waiting Time = (Turn Around Time – Burst Time)
-    5. Find turnaround time = waiting time + burst time for all processes
-    6. Find average waiting time = total waiting time / no of processes
-    7. Find average turnaround time = total turn around time / no of processes
+    - Input the processes along with their burst time
+    - Find waiting time for all processes
+    - As first process that comes need not to wait so waiting time for process 1 will be 0
+    - Find waiting time for all other processes, Waiting Time = (Turn Around Time – Burst Time)
+    - Find turnaround time = waiting time + burst time for all processes
+    - Find average waiting time = total waiting time / no of processes
+    - Find average turnaround time = total turn around time / no of processes
 7. Resource Allocation (Graph)
 8. Deadlock
 9. Process Synchronization
