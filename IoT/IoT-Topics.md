@@ -146,7 +146,7 @@
 28. **IoT Basic Sensors with NodeMCU and Raspberry Pi (Diagram and Theory)**
     - Temperature + Humidity Sensor (Agriculture): DHT11
     - Gas + Pollution Sensor (Pollution): MQ-02
-    <img src="./mq-02-diagram.jpg" alt="MQ-02 diagram" width="100" height="100">
+    <img src="./mq-02-diagram.jpg" alt="MQ-02 diagram" width="800" height="800">
 
 29. **Python Basics and Interacting with Raspberry Pi**
     - Control GPIO Pins with Python
