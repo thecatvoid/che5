@@ -14,11 +14,13 @@
     - Collection of Programs, Instructions and Data
     - To perform specific Tasks
 3. Application Software vs System Software
-|Aspect          | Application Software                         |  System Software |
-------------------------------------------------------------------------------
-| **Purpose**    | Directly Perform Specific Tasks for the user | Operate and Manage resources for the System |
-| **Dependency** | Dependent on System Software                 | Independent of Application Software |
-| **Examples**   | Word, Excel, Chrome, Photoshop               | Windows, MacOS, Linux, Drivers |
+
+| Aspect          | Application Software                         |  System Software |
+|-----------------|----------------------------------------------|------------------|
+| **Purpose**     | Directly Perform Specific Tasks for the user | Operate and Manage resources for the System |
+| **Dependency**  | Dependent on System Software                 | Independent of Application Software |
+| **Examples**    | Word, Excel, Chrome, Photoshop               | Windows, MacOS, Linux, Drivers |
+
 5. Assembler
 6. Compiler
 7. Interpreter
