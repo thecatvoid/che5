@@ -44,17 +44,11 @@
 3. Process Control Block Structure (Diagram):
 
 | Process ID (PID)         | 
-|--------------------------|
 | Process State            |
-|--------------------------|
 | Program Counter          |
-|--------------------------|
 | CPU Registers            |
-|--------------------------|
 | Memory Management Info   |
-|--------------------------|
 | I/O Status Info          |
-|--------------------------|
 | Accounting Information   |
 
 4. States of Process (Diagram)
