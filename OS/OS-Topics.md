@@ -42,21 +42,22 @@
     - Process Synchronization and Concurrency: To prevent race conditions and deadlocks
     - Resource Allocation
 3. Process Control Block Structure (Diagram):
------------------
-| Process ID    |
------------------
-| Process State |
------------------
-| Program Counter |
--------------------
-| CPU Registers |
--------------------
+
+--------------------------
+| Process ID             |
+--------------------------
+| Process State          |
+--------------------------
+| Program Counter        |
+--------------------------
+| CPU Registers          |
+--------------------------
 | Memory Management Info |
 --------------------------
-| I/O Status Info |
--------------------
-| Account Information |
------------------------
+| I/O Status Info        |
+--------------------------
+| Account Information    |
+--------------------------
 
 4. States of Process (Diagram)
 5. CPU Schedulers
