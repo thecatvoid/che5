@@ -134,10 +134,10 @@
     - Maximize CPU ultilization
     - Minimize latency
     - Ensures processes are executed efficiently
-    - 3 States:
-        a. Ready: Process that are ready to run and waiting for CPU time
-        b. Running: Currently executing process
-        c. Blocked: Processes that are waiting for some event to complete before they can continue executing
+    ### 3 States:
+    - Ready: Process that are ready to run and waiting for CPU time
+    - Running: Currently executing process
+    - Blocked: Processes that are waiting for some event to complete before they can continue executing
 6. Scheduling Algorithms (Diagram):
     <img src="./FCFS.png" alt="FCFS Chart" width="500" height="500">
     ### Algorithm:
