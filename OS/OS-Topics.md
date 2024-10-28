@@ -139,7 +139,9 @@
     - Running: Currently executing process
     - Blocked: Processes that are waiting for some event to complete before they can continue executing
 6. Scheduling Algorithms (Diagram):
-    <img src="./FCFS.png" alt="FCFS Chart" width="500" height="500">
+
+    <img src="./FCFS.png" alt="FCFS Chart" width="600" height="300">
+
     ### Algorithm:
     1. Input the processes along with their burst time
     2. Find waiting time for all processes
